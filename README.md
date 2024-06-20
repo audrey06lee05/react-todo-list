@@ -21,7 +21,7 @@ The to-do list is deployed which can be found in this link: https://vintage-todo
 * Press the bin icon to delete task (this action cannot be recovered)
 * Press the restore icon in the completed tab to store the task back to the todo tab
 
-## ⚜️ Key Feaetures & Designs
+## ⚜️ Key Features & Designs
 * The tasks are store in your local storage, which means that they will not be deleted even you refresh or delete the tab
   (unless you change to a different device or browser (ie. Chrome, Edge, FireFox))
 * The highlighting color matches the theme instead of using the default blue color
