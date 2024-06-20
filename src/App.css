@@ -1,0 +1,233 @@
+body {
+  background-color: #e9e9e9;
+  color: rgb(43, 43, 43);
+  overflow: hidden;
+  font-family: "Courier New";
+}
+
+h1 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.todo-wrapper {
+  background: rgb(187, 186, 186);
+  padding: 2%;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  max-height: 80vh;
+  overflow-y: auto;
+  box-shadow: 0px 5px 7px rgb(186, 186, 186);
+}
+
+.todo-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #4f4848;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+
+.todo-input-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 25px;
+}
+
+.todo-input-item label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#due-date {
+  color: #e9e9e9;
+}
+
+.todo-input-item input {
+  font-family: "Courier New";
+  padding: 8px;
+  border: none;
+  width: 250px;
+}
+
+.todo-input-item input:focus {
+  outline: none;
+  outline: 2px solid rgb(43, 43, 43);
+}
+
+.primaryBtn {
+  font-family: "Courier New";
+  font-weight: bold;
+  background-color: #e9e9e9;
+  color: rgb(43, 43, 43);
+  border-radius: none;
+  border-radius: 0px;
+  margin-top: 25px;
+  padding: 10px;
+  width: 60px;
+  cursor: pointer;
+}
+
+.primaryBtn:hover {
+  background-color: rgb(181, 178, 178);
+}
+
+.secondaryBtn {
+  font-family: "Courier New";
+  font-weight: bold;
+  background-color: rgb(181, 178, 178);
+  color: rgb(43, 43, 43);
+  border-radius: none;
+  border-radius: 0px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  padding: 10px;
+  margin-right: 0.5px;
+  width: fix-content;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #e9e9e9;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-area {
+  margin-bottom: 15px;
+}
+
+.todo-list-item {
+  background-color: rgb(141, 140, 140);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0px 3px 5px rgb(173, 173, 173);
+}
+
+.todo-list-item h3 {
+  font-size: 25px;
+  background-size: fill;
+  color: rgb(43, 43, 43);
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.todo-list-item p {
+  font-weight: bold;
+  font-size: 14px;
+  color: rgb(43, 43, 43);
+  margin-top: 8px;
+}
+
+.icon {
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.restore-icon {
+  font-size: 35px;
+  cursor: pointer;
+  padding-left: 7px;
+}
+
+.restore-icon:hover {
+  color: #e9e9e9;
+}
+
+.icon:hover {
+  color: rgb(159, 28, 28);
+}
+
+.check-icon {
+  font-size: 30px;
+  padding-bottom: 3px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.check-icon:hover {
+  color: rgb(27, 104, 68);
+}
+
+.edit-icon {
+  font-size: 35px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.edit-icon:hover {
+  color: #e9e9e9;
+}
+
+.edit_wrapper {
+  background-color: #414040;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.edit_wrapper input,
+.edit_wrapper textarea {
+  border: 1px solid lightgray;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 3px;
+  font-family: "Courier New";
+}
+
+.edit_wrapper .primaryBtn {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  font-size: 16px;
+  width: fit-content;
+}
+
+/* Apply highlight color globally */
+::selection {
+  background: rgb(61, 58, 58); /* Highlight color when text is selected */
+  color: #e9e9e9; /* Text color within the highlight */
+}
+
+::-moz-selection {
+  background: rgb(61, 58, 58); /* Highlight color when text is selected */
+  color: #e9e9e9; /* Text color within the highlight (for Firefox) */
+}
+
+/* Responsive styles for mobile */
+@media (max-width: 768px) {
+  .todo-wrapper {
+    width: 90%; /* Adjust the width for mobile screens */
+  }
+  .todo-input {
+    flex-direction: column; /* Stack the input items vertically */
+    align-items: stretch;
+  }
+  .todo-input-item {
+    margin-right: 0; /* Remove right margin for mobile */
+    margin-bottom: 15px; /* Add bottom margin for spacing */
+  }
+  .todo-input-item input {
+    width: 100%; /* Make input fields full width */
+  }
+  .primaryBtn {
+    width: 100%; /* Make button full width */
+  }
+  .secondaryBtn {
+    width: 48%; /* Make buttons half width */
+    margin-right: 2%; /* Add margin for spacing */
+  }
+}
