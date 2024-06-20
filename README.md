@@ -32,9 +32,8 @@ The to-do list is deployed which can be found in this link: https://vintage-todo
 ## 👾 Bugs
 <p>
 <img src= "bug-screenshot.png"
-    width=“5”>
+    width=30%>
 </p>
-<br/>
 If you encounter this error, please press "Move to Bin"
 
 
