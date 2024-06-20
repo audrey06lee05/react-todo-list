@@ -31,7 +31,7 @@ The to-do list is deployed which can be found in this link: https://vintage-todo
 
 ## 👾 Bugs
 <p>
-<img src= "bug-screenshot.PNG"
+<img src= "bug-screenshot.png"
     width=“5”>
 </p>
 <br/>
