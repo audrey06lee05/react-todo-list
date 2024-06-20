@@ -28,3 +28,13 @@ The to-do list is deployed which can be found in this link: https://vintage-todo
 * The font family was intentionally set to a typewriter style to give a vintage vibe
 
 ##### I hope you find this to-do list useful and pretty!
+
+## 👾 Bugs
+<p>
+<img src= "bug-screenshot.PNG"
+    width=“5”>
+</p>
+<br/>
+If you encounter this error, please press "Move to Bin"
+
+
