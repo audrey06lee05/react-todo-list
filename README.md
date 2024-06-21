@@ -10,7 +10,16 @@ The to-do list is deployed which can be found in this link: https://vintage-todo
 * JS
 * CSS
 
-## ⛑️ Instructions
+## 🔧 Set Up React Website
+1. Open the the file in a code editor (ie. VS Code)
+2. Open the terminal and type: cd pathway_to_todo-app
+3. Press Enter
+4. Then type: npm start
+5. Press Enter
+6. This will bring you to the website directly
+💭 Please read the bug section below and feel free to reach out if you encounter any other errors!
+
+## ⛑️ Instructions for Using the To-do List
 #### 📎 Add Task
 1. Input the task title, description and due date
 2. Press add button 
