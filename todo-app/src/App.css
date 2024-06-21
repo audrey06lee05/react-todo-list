@@ -207,27 +207,27 @@ h1 {
   color: #e9e9e9; /* Text color within the highlight (for Firefox) */
 }
 
-/* Responsive styles for mobile */
+/* styles for mobile */
 @media (max-width: 768px) {
   .todo-wrapper {
     width: 90%; /* Adjust the width for mobile screens */
   }
   .todo-input {
-    flex-direction: column; /* Stack the input items vertically */
+    flex-direction: column; /*Inputs are in column direction*/
     align-items: stretch;
   }
   .todo-input-item {
-    margin-right: 0; /* Remove right margin for mobile */
-    margin-bottom: 15px; /* Add bottom margin for spacing */
+    margin-right: 0; 
+    margin-bottom: 15px; 
   }
   .todo-input-item input {
-    width: 100%; /* Make input fields full width */
+    width: 100%; 
   }
   .primaryBtn {
-    width: 100%; /* Make button full width */
+    width: 100%; 
   }
   .secondaryBtn {
-    width: 48%; /* Make buttons half width */
-    margin-right: 2%; /* Add margin for spacing */
+    width: 48%; 
+    margin-right: 2%; 
   }
 }
