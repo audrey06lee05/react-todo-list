@@ -174,7 +174,7 @@ function App() {
             </button>
           </div>
         </div>
-        <div className="btn-area">
+        <div className="btn-area"> //todo/completed tab
           <button
             className={`secondaryBtn ${isCompleteScreen === false && "active"}`}
             onClick={() => setIsCompleteScreen(false)}
@@ -190,7 +190,8 @@ function App() {
         </div>
 
         <div className="todo-list">
-          {isCompleteScreen === false &&
+              //edit screen
+          {isCompleteScreen === false && 
             allTodos.map((item, index) => {
               if (currentEdit === index) {
                 return (
@@ -221,7 +222,7 @@ function App() {
                     </button>
                   </div>
                 );
-              } else {
+              } else { //show item on todo tab
                 return (
                   <div className="todo-list-item" key={index}>
                     <div>
@@ -250,7 +251,8 @@ function App() {
                 );
               }
             })}
-          {isCompleteScreen === true &&
+            //completed tab
+          {isCompleteScreen === true && 
             completedTodos.map((item, index) => {
               return (
                 <div className="todo-list-item" key={index}>
