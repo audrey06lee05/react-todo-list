@@ -6,7 +6,7 @@ The to-do list is deployed which can be found in this link: https://vintage-todo
 
 ## 🗣️ Language & Frameworks
 * React.JS
-* JSX
+* HTML
 * JS
 * CSS
 
@@ -16,7 +16,7 @@ The to-do list is deployed which can be found in this link: https://vintage-todo
 3. Press Enter
 4. Then type: npm start
 5. Press Enter
-6. This will bring you to the website directly
+6. This will bring you to the website directly <br/>
 💭 Please read the bug section below and feel free to reach out if you encounter any other errors!
 
 ## ⛑️ Instructions for Using the To-do List
@@ -28,12 +28,12 @@ The to-do list is deployed which can be found in this link: https://vintage-todo
 * Press the tick icon to change status to completed
 * Press the pencil icon to edit task
 * Press the bin icon to delete task (this action cannot be recovered)
-* Press the restore icon in the completed tab to store the task back to the todo tab
+* Press the restore icon in the completed tab to restore the task back to the todo tab
 
 ## ⚜️ Key Features & Designs
 * The tasks are store in your local storage, which means that they will not be deleted even you refresh or delete the tab
-  (unless you change to a different device or browser (ie. Chrome, Edge, FireFox))
-* The highlighting color matches the theme instead of using the default blue color
+  (unless you change to a different device or browser (ie. Chrome, Edge, FireFox)
+* The highlighting color matches with the theme instead of using the default blue color
 * The font family was intentionally set to a typewriter style to give a vintage vibe
 
 ##### I hope you find this to-do list useful and pretty!
