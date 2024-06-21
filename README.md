@@ -2,6 +2,7 @@
 # 📝 Vintage To-do List
 ✨ This is a to-do list with a vintage theme. It can be used on latops or phones but it is highly recommended to be used on laptops/desktops for a better user interface.<br/>
 <br/>
+Since this is my first actual React project, so I have relied on quite a few Youtube videos to be able to code everything, but my skills have definitely improved so much after completing this project. <br/><br/>
 The to-do list is deployed which can be found in this link: https://vintage-todo-list.com/ 
 
 ## 🗣️ Language & Frameworks
